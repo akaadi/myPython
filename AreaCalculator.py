@@ -14,13 +14,13 @@ if option == 'C' or option == 'c':
     print(area_circle)
 
 # here we check input for a triangle
-elif option == 'T':
+elif option == 'T' or option == 't':
     b = input("Enter the base:")
     h = input("Enter the height:")
     area_triangle = 0.5 * float(b*h)
     print(area_triangle)
 
-# if user input something else then     
+# if user input something else then do this     
 else:
     print("Empty")
     
