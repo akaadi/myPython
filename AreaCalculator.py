@@ -6,6 +6,7 @@ print("the program to calculate areas is running")
 option = input("Please enter C for Circle or T for Triangle: ")
 
 # checking for inputs and returning/printing the corresponding areas
+
 # here first we check input for a circle
 if option == 'C' or option == 'c':
     r = input("Enter the radius:")
@@ -18,7 +19,8 @@ elif option == 'T':
     h = input("Enter the height:")
     area_triangle = 0.5 * float(b*h)
     print(area_triangle)
-    
+
+# if user input something else then     
 else:
     print("Empty")
     
